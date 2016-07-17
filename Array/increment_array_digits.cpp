@@ -1,21 +1,5 @@
-//
-//  main.cpp
-//  C_Array_Practice
-//
-//  Created by abhelande on 7/13/16.
-//  Copyright © 2016 apple. All rights reserved.
-//
-
 #include <iostream>
 #include <assert.h>
-
-class ArrayIp
-{
-    const uint32_t size;
-    uint32_t* array;
-    
-    ArrayIp(uint32_t size);
-};
 
 uint32_t* incrementArray(uint32_t *inArray, uint32_t inSize, uint32_t &outSize)
 {
